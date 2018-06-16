@@ -1,8 +1,5 @@
 # omnibot_rolls
 Code to interface the omni-directional robot and the ROLLS neuromorphic chip. 
-# caer
-
-Caer is a software that configures, monitors, analyses the data from neuromorphic chips. 
 
 # Code that defines the association network 
 The NCSRobotLib includes files that are needed to configure the connectivity on the ROLLS neuromorphic chip, send commands to the Omnibot over serial connection, and listen to the keyboard to execute commands. 
