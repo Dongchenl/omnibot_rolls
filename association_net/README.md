@@ -11,9 +11,9 @@ In addition, you have to link the library into your project by updating your `CM
 
     #add RobotLib
     include_directories(
-        ${CMAKE_CURRENT_SOURCE_DIR}/../NcsRobotLibOmnibot/include
-        ${CMAKE_CURRENT_SOURCE_DIR}/../NcsRobotLibOmnibot/aerctl)
-    link_directories(${CMAKE_CURRENT_SOURCE_DIR}/../NcsRobotLibOmnibot/build)
+        ${CMAKE_CURRENT_SOURCE_DIR}/../NNCSRobotLib/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/../NCSRobotLib/aerctl)
+    link_directories(${CMAKE_CURRENT_SOURCE_DIR}/../NCSRobotLib/build)
     
     # build executables
     add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp)
