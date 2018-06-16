@@ -1,0 +1,12 @@
+#ifndef NCSROBOTEXAMPLES_OMNIBOT_PARALLELLA_MARIO_INCLUDE_DATAGENERATORLISTENER_H_
+#define NCSROBOTEXAMPLES_OMNIBOT_PARALLELLA_MARIO_INCLUDE_DATAGENERATORLISTENER_H_
+
+class DataGeneratorListener {
+public:
+  DataGeneratorListener(void){};
+  virtual void receivedNewDataEvent( double xpos, double ypos, int bumper ) = 0;
+};
+
+
+
+#endif /* NCSROBOTEXAMPLES_OMNIBOT_PARALLELLA_MARIO_INCLUDE_DATAGENERATORLISTENER_H_ */

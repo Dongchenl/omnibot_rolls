@@ -1,0 +1,37 @@
+/*! \mainpage omnibot-lib Index Page
+ *
+ * \section intro_sec Introduction
+ *
+ * omnibot-lib contans all the necessary interfaces to interface with the eDVS camera, the OmniRob and the PushBot 
+ * from NST. Additionally a class for logging keyboard input and controlling the robot is provided. See also the
+ * next section for more information about the different modules.
+ *
+ * \section modules_sec Modules
+ *
+ * \subsection keyboard_sec Keyboard modules
+ * Accessing keystrokes: \ref keyboard.h
+ *
+ * Logging keystrokes: \ref myKeyboardListener.h
+ *
+ * \subsection eDVS_sec eDVS modules
+ * eDVS interface: \ref EBV_EDVS4337SerialUSB.h
+ *
+ * eDVS event synchronization: \ref EDVSEventSynchronizer.h
+ *
+ * Logging eDVS events to file: \ref myLogListenerEDVS.h
+ *
+ * \subsection keyboard_sec Robot modules
+ * Abstract Robot base class for the OmniRob and the PushBot: \ref Robot.h
+ *
+ * OmniRob interface: \ref OmniRobot.h
+ *
+ * PushBot interface: \ref PushBot.h
+ *
+ * Listener to Robot events (servo states and bumper for the moment): \ref RobotListener.h 
+ *
+ * \subsection connectivity_sec_sec Connectivity
+ * Serial Port: \ref USBConnector.h
+ *
+ * WiFi: \ref TCPConnector.h
+ *
+ */
