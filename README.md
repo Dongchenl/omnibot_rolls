@@ -11,22 +11,25 @@ The association_net includes the controller: The network connectivity is specifi
 ## Hardware dependency
 To execute the program, the ROLLS neuromorphic chip and the Omnibot are required. <br />
 
-To build the program, the NCSRobotLib needs to be build first:
+To build the program simply run the compile.sh script.
+<br />
+An alternative is to run the following commands:<br />
+The NCSRobotLib needs to be build first:
 
 Type the following in the terminal <br />
-$cd NCSRobotLib
-$mkdir build
-$cd build
-$cmake ../
-$make
+$cd NCSRobotLib <br />
+$mkdir build <br />
+$cd build <br />
+$cmake ../ <br />
+$make <br />
 
  <br />
-After building the library compile the controller in the association_net:
-$cd ../../associaion_net
-$mkdir build
-$cd build
-$cmake ../
-$make
+After building the library compile the controller in the association_net: <br />
+$cd ../../associaion_net <br />
+$mkdir build <br />
+$cd build <br />
+$cmake ../ <br />
+$make <br />
 
 
 
