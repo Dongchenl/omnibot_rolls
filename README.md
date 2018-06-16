@@ -7,18 +7,14 @@ The association_net includes the controller: The network connectivity is specifi
 
 To build the program, the NCSRobotLib needs to be build first by the following terminal commands:
 
-####
 cd /NCSRobotLib/build
 cmake ../
 make
-####
 
 After building the library enter the association_net folder and type:
 
-####
 cd /associaion_net/build
 cmake ../
 make
-####
 
 To execute the program, the ROLLS neuromorphic chip and the Omnibot are required.
